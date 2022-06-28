@@ -17,3 +17,4 @@
 const Route = use("Route");
 
 Route.resource("productos", "ProductoController").apiOnly();
+Route.resource("carritos", "CarritoController").apiOnly();
